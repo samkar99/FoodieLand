@@ -1,0 +1,386 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); */
+
+
+/* utilities */
+
+.mn-btn{
+    padding: 5px 20px 5px 20px;
+    background: linear-gradient(to bottom,#47ECD8, transparent );
+    border-radius: 6px;
+    border: 1px solid black;
+    font-family: Secular One;
+
+}
+
+
+
+.mn-btn2{
+    padding: 5px 20px 5px 20px;
+    background: linear-gradient(to bottom,#47ECD8, transparent );
+    border-radius: 20px;
+    border: none;
+    font-family: Secular One;
+    box-shadow: 0 0 10px 1px #47ECD8;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+}
+
+.mn-btn2:hover{
+    background: linear-gradient(to bottom,aliceblue, #47ECD8 );
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.mn-btn3{
+    margin-right: 20px;
+}
+
+.mn-btn4{
+    padding: 5px 20px 5px 20px;
+    background: linear-gradient(to top, aliceblue, transparent);
+    border-radius: 6px;
+    border: 1px solid black;
+    font-family: Secular One;
+    cursor: pointer;
+}
+.mn-btn4:hover{
+    background: linear-gradient(to top, transparent, transparent);
+}
+
+
+
+
+
+
+
+
+
+
+/* utilities ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-container{
+    height: 380vh;
+    width: 95%;
+    background: linear-gradient(to left, #47ECD8, transparent);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 1px black;
+}
+
+
+
+
+
+
+
+
+
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    margin-left: 150px;
+}
+
+.logo-mob{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.links{
+    display: inline-flex;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+.link{
+    margin-left: 18px;
+    margin-right: 18px;
+    color: #000000;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+
+}
+.link:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid grey;
+    color: grey;
+    transition: 0.2s;
+}
+
+
+
+
+
+
+.menu-btn{
+    margin-right: 100px;
+}
+
+
+
+
+
+
+.mn-btn:hover{
+    background: linear-gradient(to bottom, transparent, aliceblue );
+    cursor: pointer;
+    color: black;
+    transition: 0.2s;
+}
+
+
+
+
+
+/* hero  blk */
+
+
+.hero-blk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.hero-left{
+    height: 80vh;
+    /* width: 47%; */
+    /* border: 1px solid black; */
+    /* padding-left: 160px;
+     */
+     margin-left: 150px;
+    padding-top: 120px;
+    font-family: Secular One;
+}
+.hero-left{
+    height: 80vh;
+    width: 47%;
+}
+
+
+
+.hero-right{
+    padding-right: 60px;
+    padding-bottom: 48px;
+}
+
+
+
+.rght-img{
+    height:400px;
+    width: auto;
+}
+.rght-img h1{
+    display: none;
+}
+
+
+/* hero  ends blk */
+
+
+
+/* sec-hero */
+
+
+
+
+
+.sh-hero{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.sh-hero2{
+    font-family: Secular One;
+    
+}
+
+.sec-hero-img{
+    height: 400px;
+    width: auto;
+    /* margin-left: 125px; */
+}
+
+
+
+
+.lorem-ex{
+    background: rgba(245, 245, 245, 0.518);
+    border-radius: 10px;
+    padding: 10px 20px 20px 20px;
+    
+}
+
+
+
+
+
+
+
+/* sec-hero ends */
+
+
+
+/* deliver explain */
+
+
+.dlv-exp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.dlv-exp .blk{
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    background: linear-gradient(to top,#47ECD8, aliceblue );
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px grey;
+    cursor: pointer;
+    font-family: poppins;
+
+}
+
+.dlv-exp .blk:hover{
+    border-radius: 1px;
+    transition: 0.5s;
+}
+
+.pngwings{
+    height: 100px;
+    width: auto;
+    margin-top: 60px;
+}
+
+.dlv-exp .blk h1{
+    margin-bottom: 40px;
+}
+
+
+/* deliver explain ends */
+
+
+
+/* Testimonial carasoul */
+
+
+.swiper {
+    width: 100%;
+  }
+
+
+
+.block-sw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    background: rgba(240, 248, 255, 0.563);
+    border-radius: 30px;
+}
+.block-sw h1{
+    margin-bottom: 30px;
+}
+  .sw-img{
+    height: 300px;
+    width: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonial carasoul ends ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+
+/* mobile responsive ends */
